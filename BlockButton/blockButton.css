@@ -1,0 +1,79 @@
+.buttonWrap {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  position: relative;  
+  font-family: PingFangSC-Medium;
+  box-sizing: border-box;
+  font-size: 16px;
+  text-align: center;
+}
+.buttonWrap .buttonBox {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-decoration: none;
+  transition: .2s all;
+}
+
+.buttonWrap .button {
+  color: rgb(255, 255, 255, 0.8);
+  display: block;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.buttonWrap .button:hover {
+  color: #1EE1FF;
+}
+.buttonActive {
+  height: 42px;
+}
+.buttonActive .button {
+  color: rgb(255, 255, 255, 0.8);
+  border: 1px solid #1EE1FF;
+  border-bottom: none;
+}
+.buttonActive .button:hover {
+  color: rgb(255, 255, 255, 0.8);
+}
+.buttonActive .button::after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  left: -7px;
+  bottom: 0px;
+  background: #1EE1FF;
+}
+.buttonActive .button::before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  right: -10px;
+  bottom: 0px;
+  background: #1EE1FF;
+}
+.buttonWrap .arrow {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform-origin: center center;
+  transform: rotate(-45deg) translate(-50%, -0.5px);
+  width: 12px;
+  height: 12px;
+  border: 1px solid #1EE1FF;
+  border-top: none;
+  border-right: none;
+  bottom: -2px;
+}
+.buttonActive .arrow {
+  display: block;
+}

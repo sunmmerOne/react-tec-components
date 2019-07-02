@@ -1,0 +1,88 @@
+/* @import '~antd/dist/antd.css'; */
+
+.tableWrap {
+  position: relative;
+  box-shadow: inset 0 0 30px 0 rgba(30,225,255,0.30);
+  border: 1px solid rgba(30,225,255,0.60);
+}
+.tableWrap .desc {
+  position: absolute;
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  border: 3px solid #1EE1FF;
+}
+.tableWrap .descLT {
+  left: -2px;
+  top: -2px;
+  border-right: none;
+  border-bottom: none;
+}
+.tableWrap .descLB {
+  left: -2px;
+  bottom: -2px;
+  border-right: none;
+  border-top: none;
+}
+.tableWrap .descRT {
+  right: -2px;
+  top: -2px;
+  border-left: none;
+  border-bottom: none;
+}
+.tableWrap .descRB {
+  right: -2px;
+  bottom: -2px;
+  border-left: none;
+  border-top: none;
+}
+.tableWrap .block {
+  position: absolute;
+  /* height: 22px; */
+  height: 3px;
+  width: 9%;
+  background: #1EE1FF;
+  top: -2px;
+}
+.tableWrap .blockLeft {
+  left: 20%;
+}
+.tableWrap .blockRight {
+  right: 20%;
+}
+.tableWrap .ant-table-thead {
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+}
+.tableWrap .ant-table-thead th {
+  padding: 0 0 0 40px;
+  height: 62px;
+  line-height: 62px;
+  background: transparent;
+  color: #46B1E5;
+  border-bottom: 1px solid rgba(30, 225, 255, 0.1);
+}
+.tableWrap .ant-table-placeholder {
+  background: transparent;
+  border: none;
+}
+.tableWrap .ant-table-tbody td {
+  padding:13px 0 13px 40px;
+  padding-right: 0;
+  border: none;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #FFFFFF;
+  max-width: 120px;
+  /* word-wrap: break-word; 需要展示所有信息就放开这个 */
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.ant-table-thead > tr.ant-table-row-hover:not(.ant-table-expanded-row) > td, .ant-table-tbody > tr.ant-table-row-hover:not(.ant-table-expanded-row) > td, .ant-table-thead > tr:hover:not(.ant-table-expanded-row) > td, .ant-table-tbody > tr:hover:not(.ant-table-expanded-row) > td {
+  background: rgba(30, 225, 255, 0.16);
+}
+
+.ant-table-thead > tr {
+  /* background: rgba(30, 225, 255, 0.16) !important; */
+  background: transparent;
+}

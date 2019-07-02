@@ -1,0 +1,17 @@
+.right-link {
+  width: 124px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  .link-icon {
+  }
+  .link-text {
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 4px;
+  }
+  &:hover {
+    color: #1EE1FF;
+  }
+}

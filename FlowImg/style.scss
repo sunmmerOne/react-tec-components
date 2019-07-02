@@ -1,0 +1,82 @@
+@media screen and (max-width:1900px){
+  .flow-img-wrap {
+    width: 28%;
+  }
+  &.buyer-content {
+    left: 36.5%;
+    top: 10px;
+  }
+  &.custom-content {
+    left: 0;
+    top: 150px;
+  }
+  &.seller-content {
+    left: 36.5%;
+    bottom: 40px;
+  }
+  &.logistics-content {
+    right: 0;
+    top: 150px;
+  }
+}
+
+@media screen and (min-width: 1900px){
+  .flow-img-wrap {
+    width: 274px;
+  }
+  &.buyer-content {
+    left: 365px;
+    top: 0;
+  }
+  &.custom-content {
+    left: 0;
+    top: 110px;
+  }
+  &.seller-content {
+    left: 365px;
+    bottom: 30px;
+  }
+  &.logistics-content {
+    right: 0;
+    top: 110px;
+  }
+}
+
+.flow-img-wrap {
+  // width: 274px;
+  position: absolute;
+  // &.buyer-content {
+  //   left: 365px;
+  //   top: 0;
+  // }
+  // &.custom-content {
+  //   left: 0;
+  //   top: 110px;
+  // }
+  // &.seller-content {
+  //   left: 365px;
+  //   bottom: 30px;
+  // }
+  // &.logistics-content {
+  //   right: 0;
+  //   top: 110px;
+  // }
+  .position {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .flow-img {
+    // width: 274px;
+    // height: 240px;
+    width: 100%;
+    height: auto;
+  }
+  .flow-text {
+    position: absolute;
+    width: 100%;
+    bottom: -14px;
+    text-align: center;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,124 @@
+/* @import '~antd/dist/antd.css'; */
+/* .carouselBox {
+    width: 298px;
+    height: 550px;
+    overflow: hidden;
+} */
+.ant-carousel .slick-slide {
+    width: 298px;
+    height: 550px;
+}
+.ant-carousel .slick-list {
+    height: 555px !important;
+}
+.panelWrap {
+    position: relative;
+    padding:1px 1px 21px 1px;
+    
+}
+.panelWrap .container {
+    position: relative;
+    border: 1px solid rgba(30,225,255,0.60);
+    box-shadow: inset 0 0 30px 0 rgba(30,225,255,0.30);
+    box-sizing: border-box;
+    min-height: 162px;
+}
+.panelWrap .desc {
+    position: absolute;
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+    border: 3px solid #1EE1FF;
+}
+.panelWrap .descLT {
+    left: -2px;
+    top: -2px;
+    border-right: none;
+    border-bottom: none;
+}
+.panelWrap .descLB {
+    left: -2px;
+    bottom: -2px;
+    border-right: none;
+    border-top: none;
+}
+.panelWrap .descRT {
+    right: -2px;
+    top: -2px;
+    border-left: none;
+    border-bottom: none;
+}
+.panelWrap .descRB {
+    right: -2px;
+    bottom: -2px;
+    border-left: none;
+    border-top: none;
+}
+.panelWrap .block {
+    position: absolute;
+    /* height: 22px; */
+    height: 3px;
+    width: 50px;
+    background: #1EE1FF;
+    bottom: -2px;
+}
+.panelWrap .blockLeft {
+    left: 50px;
+}
+.panelWrap .blockRight {
+    right: 50px;
+}
+.panelWrap .block .chain {
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    height: 19px;
+    top: 3px;
+    transform: translateX(-50%);
+    background-image: linear-gradient(-180deg, #1EE1FF 0, #1EE1FF 3px, rgba(0, 0, 0, 0) 3px, rgba(0, 0, 0, 0) 6px, #1EE1FF 6px, #1EE1FF 11px,rgba(0, 0, 0, 0)  11px,rgba(0, 0, 0, 0) 14px,#1EE1FF 14px,#1EE1FF 19px);  
+}
+.panelWrap .block .fadeChain {
+    background-image: linear-gradient(-180deg, #1EE1FF 0, #1EE1FF 3px, rgba(0, 0, 0, 0) 3px, rgba(0, 0, 0, 0) 6px, rgba(30, 225, 255, 1) 6px, rgba(30, 225, 255, 0.7) 11px,rgba(0, 0, 0, 0)  11px,rgba(0, 0, 0, 0) 14px,rgba(30, 225, 255, 0.7) 14px,rgba(30, 225, 255, 0.3) 19px);
+}
+.panelWrap .block .square {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #1EE1FF;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 22px;
+}
+.panelWrap .main {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+.panelWrap .main li {
+    width: 50%;
+    float: left;
+    margin-top: 28px;
+    text-indent: 34px;
+    list-style: none;
+    text-align: left;
+}
+.panelWrap .main .title {
+    margin: 0;
+    padding: 0;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #46B1E5;
+    line-height: 14px;
+    margin-bottom: 12px;
+    font-weight: normal;
+}
+.panelWrap .main .val {
+    margin: 12px 0 0 0;
+    padding: 0;
+    opacity: 0.8;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 14px;
+}
+

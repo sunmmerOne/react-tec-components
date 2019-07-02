@@ -1,0 +1,20 @@
+.wrap {
+  padding: 20px 0 12px;
+  border-bottom: 2px solid rgb(11, 32, 74);
+  .top-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .line {
+    line-height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #46B1E5;
+    .img {
+      width: 28px;
+      height: auto;
+    }
+  }
+}

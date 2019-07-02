@@ -1,0 +1,132 @@
+/* @import '~antd/dist/antd.css'; */
+.selectWrap {
+  height: 48px;
+  line-height: 48px;
+  margin: 8px 0;
+  position: relative;
+}
+.selectWrap .selectContainer {
+  /* float: right; */
+  /* width: 100%; */
+  height: 100%;
+  box-sizing: border-box;
+  background: transparent;
+}
+.selectWrap .selectContainer input {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0 16px 0 0;
+  font-size: 14px;
+  text-indent: 16px;
+  border: 1px solid rgba(30,225,255,0.30);
+  border-radius: 2px;
+  background: rgba(11,34,88,0.30);
+  color: rgba(255, 255, 255, 0.3);
+  font-family: PingFangSC-Regular;
+}
+.selectWrap .selectContainer input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+.selectWrap .selectContainer input:focus {
+  border: 1px solid #1EE1FF;
+  box-shadow: inset 0 0 30px 0 #184C9B;
+  color: rgba(255, 255, 255, 0.8);
+}
+.selectWrap .selectContainer .isHigher {
+  border: 1px solid #1EE1FF;
+  border-radius: 4px;
+  box-shadow: inset 0 0 30px 0 #184C9B;
+  color: rgba(255, 255, 255, 0.8);
+}
+/* .selectWrap .selectContainer .isHigher:focus {
+  border: 1px solid #1EE1FF;
+  border-radius: 6px;
+  box-shadow: inset 0 0 30px 0 #184C9B;
+  color: rgba(255, 255, 255, 0.8);
+} */
+.selectWrap .selectContainer input:focus::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.selectWrap .selectLable {
+  float: left;
+  padding-right: 16px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #46B1E5;
+  text-align: right;
+}
+.drop-down-color {
+  background: #08194A !important;
+}
+.selectWrap .require {
+  color: red;
+  padding-right: 4px;
+}
+.selectWrap .lableSpace {
+  margin-left: 98px;
+}
+.selectWrap .select {
+  height: 100%;
+}
+.selectWrap .inner__control {
+  height: 100%;
+  background: transparent;
+}
+.selectWrap .inner__value-container {
+  height: 100%;
+}
+.select:focus {
+  background: red;
+}
+.selectWrap .ant-select-selection__rendered,.selectWrap .ant-select-selection--single {
+  height: 48px;
+  line-height: 48px;
+}
+.selectWrap .ant-select-selection {
+  background: transparent;
+  border: 1px solid rgba(30,225,255,0.30);
+}
+.selectWrap .ant-select-open .ant-select-selection {
+  border: 1px solid #1EE1FF;
+  box-shadow: inset 0 0 30px 0 #184C9B;
+}
+.selectWrap .ant-select-selection-selected-value {
+  color: rgba(255, 255, 255, 1);
+}
+.ant-select-dropdown {
+  background: transparent;
+  border: 1px solid #1EE1FF;
+  border-radius: 2px;
+  padding: 8px 4px 8px 0;
+}
+.ant-select-dropdown-menu::-webkit-scrollbar {
+  width: 3px;
+  height: 100%;
+}
+.ant-select-dropdown-menu::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+  width: 3px;
+  background: #1EE1FF;
+  border-radius: 6px;
+}
+
+.ant-select-dropdown-menu-item {
+  height: 48px;
+  line-height: 48px;
+}
+.ant-select-dropdown-menu-item, .ant-select-dropdown-menu-item:first-child, .ant-select-dropdown-menu-item:last-child{
+  border-radius: 0;
+  color: rgba(255, 255, 255, 0.6);
+  background: transparent;
+}
+.ant-select-dropdown-menu-item-selected, .ant-select-dropdown-menu-item-selected:hover{
+  background: rgba(30, 225, 255, 0.16);
+  color: rgba(255, 255, 255, 1);
+}
+.ant-select-dropdown-menu-item:hover{
+  background: rgba(30, 225, 255, 0.16);
+  color: rgba(255, 255, 255, 1);
+}

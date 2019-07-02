@@ -1,0 +1,92 @@
+@media screen and (min-width: 1440px){
+  .inputWrap {
+    height: 48px;
+    line-height: 48px;
+    box-sizing: content-box;
+    padding: 8px 0;
+  }
+  .inputWrap .lableSpace {
+    margin-left: 98px;
+  }
+}
+@media screen and (max-width: 1440px){
+  .inputWrap {
+    min-width: 240px;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: content-box;
+    padding: 8px 0;
+  }
+  .inputWrap .lableSpace {
+    margin-left: 88px;
+  }
+}
+/* .inputWrap {
+  height: 48px;
+  line-height: 48px;
+  box-sizing: content-box;
+  padding: 8px 0;
+} */
+.inputWrap .inputContainer {
+  /* float: right; */
+  /* width: 100%; */
+  height: 100%;
+  min-width: 180px;
+  box-sizing: border-box;
+  background: transparent;
+}
+.inputWrap .inputContainer input {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0 16px 0 0;
+  font-size: 14px;
+  text-indent: 16px;
+  border: 1px solid rgba(30,225,255,0.30);
+  border-radius: 2px;
+  background: rgba(11,34,88,0.30);
+  color: rgba(255, 255, 255, 0.3);
+  font-family: PingFangSC-Regular;
+}
+.inputWrap .inputContainer input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.inputWrap .inputContainer .higher {
+  border: 1px solid #1EE1FF;
+  box-shadow: inset 0 0 30px 0 #184C9B;
+  color: rgba(255, 255, 255, 0.8);
+}
+.inputWrap .inputContainer .no-text {
+  border: 1px solid red;
+  box-shadow: inset 0 0 2px 0 red;
+  color: rgba(255, 255, 255, 0.8);
+}
+.inputWrap .inputContainer input:focus {
+  border: 1px solid #1EE1FF;
+  box-shadow: inset 0 0 30px 0 #184C9B;
+  color: rgba(255, 255, 255, 0.8);
+}
+.inputWrap .inputContainer input:focus::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.inputWrap .inputLable {
+  float: left;
+  /* padding-right: 16px; */
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #46B1E5;
+  text-align: left;
+  /* min-width: 70px; */
+  width: 85px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.inputWrap .require {
+  color: red;
+  padding-right: 4px;
+}

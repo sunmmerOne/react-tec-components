@@ -1,0 +1,66 @@
+.titleWrap {
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px 5px;
+}
+.titleWrap::before, .titleWrap::after {
+  position: absolute;
+  content: '';
+  left: 5px;
+  right: 5px;
+  height: 2px;
+  opacity: 0.2;
+  background: #FFFFFF;
+}
+.titleWrap::before {
+  top: 4px;
+}
+.titleWrap::after {
+  bottom: 4px;
+}
+.titleWrap .titleMain {
+  position: relative;
+  height: 32px;
+  line-height: 32px;
+  color: #FFFFFF;
+  background-image: linear-gradient(-90deg, rgba(0,128,255,0.00) 0%, rgba(0, 128, 255, 0.3) 100%);  
+}
+.titleWrap .dec {
+  position: absolute;
+  box-sizing: border-box;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #9DA5BA;
+  z-index: 99;
+}
+.titleWrap .decLT {
+  left: 0px;
+  top: 0px;
+}
+.titleWrap .decLB {
+  left: 0px;
+  bottom: 0px;
+}
+.titleWrap .decRT {
+  right: 0px;
+  top: 0px;
+}
+.titleWrap .decRB {
+  right:  0px;
+  bottom: 0px;
+}
+.titleWrap .title {
+  float: left;
+  height: 100%;
+  font-family: PingFangSC-Medium;
+  font-size: 16px;
+  padding: 0 8px;
+  opacity: 0.8;
+}
+.titleWrap .tips {
+  float: right;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  opacity: 0.8;
+  padding-right: 8px;
+}

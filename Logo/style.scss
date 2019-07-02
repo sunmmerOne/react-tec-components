@@ -1,0 +1,19 @@
+.logo-wrap {
+  // width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  .logo-img {
+    width: 120px;
+    height: auto;
+  }
+  .logo-intro {
+    height: 24px;
+    line-height: 24px;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-left: 1px solid #D8D8D8;
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+}
